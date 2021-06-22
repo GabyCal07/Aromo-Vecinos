@@ -25,10 +25,12 @@ body {
   width: 100px;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover{
     color:#e6e482;    
 }
-
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+    color:#e6e482;    
+}
 
 /* Hero*/
 
@@ -100,7 +102,7 @@ body {
 /* Clasificados - Compartir Info section */
 
  .clasif-image, .share-image{
-    width: 300px;
+    width: 50%;
 }
 
  /* Footer */
