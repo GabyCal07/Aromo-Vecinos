@@ -101,8 +101,11 @@ body {
 
 /* Clasificados - Compartir Info section */
 
+.image-container{
+    width:50%;
+}
  .clasif-image, .share-image{
-    width: 300px;
+    max-width: 100%;
 }
 
  /* Footer */
